@@ -1,0 +1,102 @@
+body {
+	font-family: georgia;
+	background: #ddd url(../Images/bg.jpg) no-repeat; 
+	background-size: 100%;
+	margin: 0; 
+	padding: 0; 
+}
+
+aside {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+#topbar {
+	width: 100%;
+	height: 50px;
+	background: blue;
+	background: -moz-linear-gradient(top, blue, skyblue);
+	background: -webkit-linear-gradient(top, blue, skyblue);
+	background: -o-linear-gradient(top, blue, skyblue);
+	background: -ms-linear-gradient(top, blue, skyblue);
+	border-top: 5px solid black;
+	border-bottom: 15px solid black;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+
+.mendaftar {
+	position: absolute;
+}
+
+.field {
+	margin: 100px 500px;
+	width: 300px;
+	height: 400px;
+	padding: 10px 10px;
+	border-color: skyblue;
+}
+
+.field legend {
+	font-size: 25px;
+	font-family: Century Gothic;
+	padding: 10px 10px 10px 10px;
+	color: #00b8ee;
+}
+
+.field span {
+	font-size: 15px;
+	font-family: Century Gothic;
+	color: white;
+	padding-left: 15px;
+}
+
+.field input {
+	height: 25px;
+	width: 250px;
+	margin: 10px 10px 10px 15px;
+	background-color: transparent;
+	font-family: Century Gothic;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	color: white;
+	left: 700px;
+}
+
+.field a {
+	text-decoration: none;
+}
+
+.field input[type="button"] {
+	text-decoration: none;
+	background-color: white;
+	position: absolute;
+	margin-top: 70px; 
+	right: 30px;
+	color: #332c2b;
+	width: 70px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.field input:hover[type="button"] {
+	background-color: silver;
+}
+
+.field input:active[type="button"] {
+	background-color: #25201f;
+	color: #00b8ee;
+}
+
+.logo{
+	background: url("../Images/OP logo.png") no-repeat;
+	background-size: 120px;
+	width: 400px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	left: 700px;
+	top: -15px;
+	z-index: 4;

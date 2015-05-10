@@ -1,0 +1,156 @@
+
+
+body {
+	font-family: georgia;
+	background: #ddd url(../Images/ichigo.jpg) no-repeat; 
+	background-size: 100%;
+	margin: 0; 
+	padding: 0; 
+}
+
+h1{
+	font-family:  Century Gothic;
+	font-size: 30px;
+	text-align: center;
+	color: skyblue;
+}
+
+#topbar {
+	width: 100%;
+	height: 50px;
+	background: blue;
+/* untuk mengatur gradasi warna pada bacground */
+	background: -moz-linear-gradient(top, blue, skyblue);
+	background: -webkit-linear-gradient(top, blue, skyblue);
+	background: -o-linear-gradient(top, blue, skyblue);
+	background: -ms-linear-gradient(top, blue, skyblue);
+	border-top: 2px solid black;
+	border-bottom: 7px solid black;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+
+#topnav {
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.toplogo {
+	position: absolute;
+	left: -48px;
+	top: 4px;
+}
+
+.toplogo a {
+	background: url(../Images/logo.png) no-repeat;
+	width: 116px;
+	height: 40px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.link {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	left: 100px;
+	z-index: 2;
+}
+
+.link li {
+	float: left;
+	margin: 0;
+}
+
+.link li a {
+	text-transform: uppercase;
+	font-weight: 800px;
+	font-family:  Century Gothic;
+	font-size: 17px;
+	color: black;
+	margin-right: 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.link li.current a {
+	color: black;
+}
+
+.link li a:hover {
+	color: white;
+}
+
+.link li:hover ul {
+	display: block;
+	padding: 10px;
+}
+
+.link li:hover ul li {
+	line-height: 30px;
+}
+
+.link li:hover ul li a {
+	font-size: 12px;
+}
+
+#page-wrap {
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 50px; 
+	padding: 20px;
+	background: blue;
+	background: -moz-linear-gradient(top,black,blue);
+	background: -webkit-linear-gradient(top,black,blue);
+	background: -o-linear-gradient(top,black,blue);
+	background: -ms-linear-gradient(top,black,blue);
+	position: relative;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+/*css untuk bagian footer*/
+footer {
+	background: blue;
+/* untuk mengatur gradasi warna pada bacground */
+	background: -moz-linear-gradient(top, blue, skyblue);
+	background: -webkit-linear-gradient(top, blue, skyblue);
+	background: -o-linear-gradient(top, blue, skyblue);
+	background: -ms-linear-gradient(top, blue, skyblue);
+	border-top: 2px solid black;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
+
+footer span {
+	position:absolute;
+	top: 15px;
+	right: 35%;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.Button1{
+	width: 100px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 65px;
+	z-index: 4;
+}
+.Button2{
+	width: 100px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	right: 200px;
+	bottom: -27px;
+	z-index: 4;
+}
